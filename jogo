@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main{
+  public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    int porta;
+    System.out.println("Bem vindo ao Jogo");
+    System.out.println("Escolha uma porta: 1, 2 ou 3");
+    porta = scanner.nextInt();
+    if(porta == 1){
+      System.out.println("Você encontrou um tesouro, parabéns!");
+    }
+    else if(porta == 2){
+      System.out.println("Você encontrou um monstro, cuidado!");
+    }
+    else if(porta == 3){
+      System.out.println("Você encontrou um caminho sem saida, que pena.");
+    }
+    else{
+      System.out.println("Porta inválida");
+    }
+    
+  }
+  
+}
